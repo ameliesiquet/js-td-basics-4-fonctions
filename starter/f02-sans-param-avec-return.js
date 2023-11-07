@@ -20,17 +20,26 @@ N.B. La déclaration, à elle toute seule, ne produit aucun résultat visible
 	on a expliqué comment faire quelque chose mais on n'a pas encore donné l'ordre de le faire)
 */
 
+
+
 // 1°) a) Déclarer la fonction
-function direBonjour() {
+
     // À vous de remplir le contenu de cette fonction et d'ajouter une instruction RETURN pour retourner la chaîne "Bonjour !"
-    return "Bonjour !";
-}
+
 
 // 2°) a) Exécuter la fonction (appelez la fonction direBonjour)
-direBonjour();
 
 // 3°) a) Stocker le résultat de l'exécution de direBonjour dans une variable resultat
-let resultat =direBonjour();
 
 // 3°) b) Donner l'ordre d'afficher le contenu de la variable resultat dans la console
-console.log(resultat);
+
+
+function direBonjour (){
+    return "Bonjour !"
+}
+direBonjour()
+let resultat= direBonjour();
+console.log(resultat)
+
+
+

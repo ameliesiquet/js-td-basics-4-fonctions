@@ -19,10 +19,18 @@
 
 // Appel de la fonction
 
-
+const direBonjour = function (){
+        console.log("Bonjour !")
+    }
+    direBonjour();
 
 // b) sans paramètre mais avec return
+const direBonjour1 = function (){
+        return "Bonjour !"
 
+    }
+    let message = direBonjour1();
+console.log(message)
 /* EXERCICE 2 :
 - Déclarez sous la forme d'une expression de fonction
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
@@ -35,8 +43,11 @@
 // Utilisation de la fonction pour afficher "Bonjour !" dans la console
 
 
-
 // c) avec paramètre et return
+let direBonjour2 = function (){
+    return "Bonjour 2 !"
+}
+console.log(direBonjour2())
 
 /* EXERCICE 3 :
 - Déclarez sous la forme d'une expression de fonction la fonction salue qui
@@ -45,6 +56,13 @@
    - retourne ce message
 - Utilisez-la pour saluer Thomas dans la console
 */
+
+
+let salue =function (prenom){
+    let message = "Bonjour " + prenom + "!";
+    return message;
+}
+console.log(salue("Thomas"))
 
 // Expression de fonction avec paramètre et return
 

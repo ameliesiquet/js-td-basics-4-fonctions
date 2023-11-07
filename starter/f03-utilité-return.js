@@ -25,6 +25,10 @@ pour le réutiliser dans une autre fonction
 //   - affiche dans la console "Dans calcule2 : resultat2 =  "
 // Exécutez les deux fonctions
 
+
+
+
+
 // 1°) Créez la fonction calcule1
 function calcule1 (){
     let resultat1 =2+3;
@@ -45,3 +49,5 @@ function calcule2 (){
 // 3°) Appelez les fonctions calcule1() et calcule2() pour exécuter les calculs et afficher les résultats dans la console
 calcule1();
 calcule2();
+
+
